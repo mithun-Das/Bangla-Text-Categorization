@@ -1,0 +1,9 @@
+                                          Rule-based production system
+
+A rule-based production system consists of three basic component: set of rules, a database, and an interpreter for the rules.
+Rules are the ordered pair of symbol strings, with a left hand side and a right hand side. The rule set has a predetermined 
+total ordering and database is the simply collection of symbols. The interpreter scans the LHS of  each rule until any match
+is found in the database. Symbols matched in the data base  are replaced by thos in the RHS in the rule and then scanning either
+continues with the next rule or start from first.
+
+link :  http://aitopics.org/topic/rule-based-reasoning
